@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox dan Radio Button</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Formulir Contoh</h1>
+    <form>
+        <fieldset>
+            <legend>Pilih Jenis Kelamin:</legend>
+            <label>
+                <input type="radio" name="gender" value="male"> Laki-laki
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female"> Perempuan
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pilih Hobi:</legend>
+            <label>
+                <input type="checkbox" name="hobby" value="reading"> Membaca
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="traveling"> Bepergian
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="sports"> Olahraga
+            </label>
+        </fieldset>
+        
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
